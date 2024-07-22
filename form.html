@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <style>
+        * {
+            margin : 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        #container {
+            width : 500px;
+            height: 400px; 
+            background-color: #fff8f4;
+            margin:200px auto;
+            border-radius:20px;
+            box-shadow: 3px 3px 7px 1px #ccc;
+            display : flex;
+            flex-direction: column;
+            justify-content:space-between;
+            padding : 50px 50px;
+        }
+        button,input {
+            height:30px;
+            outline : none;
+            border-radius: 10px;
+            border:1px solid #000;
+            background-color: #fdfdfc;
+        }
+        input {
+            border:none;
+            background-color: #ebebe9;
+            padding:0px 10px;
+        }
+        button{
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <form id="container">
+        <h1>Đăng Nhập</h1>
+        <p>Bạn có thể đăng nhập bằng</p>
+        <button>Đăng nhập với Google</button>
+        <button>Đăng nhập với Facebook</button>
+        <p>Hoặc điền các thông tin dưới đây</p>
+        <input type="text" placeholder="Email">
+        <input type="password" placeholder="Mật khẩu">
+        <input style = "cursor:pointer;background-color: #f76808; color : #fff;font-size: 15px;font-weight: bold; letter-spacing: 2px;" type = "submit" value = "Đăng Nhập">
+    </form>
+</body>
+</html>
